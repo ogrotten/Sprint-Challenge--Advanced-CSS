@@ -1,3 +1,17 @@
+# Q & A RESPONSES
+
+* Responsive has a fluid design that changes dynamically regardless of screen size. Adaptive uses a static design for each of several specific points.
+
+* Mobile First means designing for smaller displays with efficient use of interface and bandwidth, and sometimes requiring more interactivity. Desktop first is designing with high resolution, more accurate interface (mouse vs finger or even thumb), and less concern about bandwidth usage.
+
+* It assumes that the browsers base font size is set to "medium" and uses that to set the page's base font-size to 10px.
+
+* CSS preprocessors allow use of the tools available to programming languages for building CSS rules. This reduces typing, time, repetition, and potential for errors due to repetition.
+
+* My faves are the deeper capabilities like functions and containers (like arrays). Things like this would allow the designer to do all kinds of crazy things that would take forever if using straight CSS.
+
+----------------
+
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.

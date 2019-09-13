@@ -1,1 +1,37 @@
 // Navigation code here
+
+nav {
+	width: 400px;
+	font-size: 1.6rem;
+	.flexrow();
+	justify-content: space-around;
+	a {
+		color: @river-bend;
+		text-decoration: none;
+        font-weight: bold;
+
+//----------------------
+//CSS HOVER ANIM STRETCH
+//----------------------
+
+        display: inline-block;
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        transition-duration: 0.3s;
+        transition-property: transform;
+        transition-timing-function: ease-out;
+        &:hover {
+            transform: translateY(-10px) scale(1.5);
+        }
+		@media (max-width: 500px) {
+			padding: 12px;
+			margin: 0;
+			text-align: center;
+		}
+	}
+	@media @phone {
+		width: 100%;
+		padding: 0;
+		justify-content: space-evenly;
+	}
+}

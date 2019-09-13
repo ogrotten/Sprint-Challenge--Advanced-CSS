@@ -10,10 +10,23 @@
 	flex-direction: row;
 }
 
+
+.cornering(@rad) {
+    border-radius: @rad;
+}
+
 .testblock() {
     border: 1px solid red;
 }
 
-.cornering(@rad) {
-    border-radius: @rad;
+.butt(@rad; @colorfg; @colorbg;){
+    // .testblock();
+    padding:8px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    .cornering(@rad);
+    width: 100px;
+    color: @colorfg;
+    background-color: @btn-bg-color;
 }

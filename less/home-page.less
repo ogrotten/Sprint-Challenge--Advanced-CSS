@@ -25,7 +25,7 @@ header.intro {
 .home {
 	img {
 		.cornering(6px;);
-		@media @phone{
+		@media @phone {
 			max-width: 100%;
 		}
 	}
@@ -48,9 +48,9 @@ header.intro {
 			margin: 20px 2.5%;
 			.cornering(20px;);
 			height: 100%;
-			@media @phone{
+			@media @phone {
 				display: none;
-			}	
+			}
 			&:first-child {
 				display: block;
 				width: 100%;
@@ -76,48 +76,48 @@ header.intro {
 		padding: 50px 60px;
 		display: flex;
 		justify-content: center;
-		@media @phone{
+		@media @phone {
 			flex-direction: column-reverse;
 			width: 100%;
 			padding: 15px;
-		}	
+		}
 		.walk-text {
 			width: 50%;
 			margin: 25px 0;
-			
+
 			h3 {
 				margin-bottom: 10px;
 			}
-			
+
 			p {
 				margin-bottom: 26px;
 			}
-			
+
 			.btn {
-				.butt(6px;@nav-bg;@nav-font;);
-				@media @phone{
+				.butt(6px; @nav-bg; @nav-font;);
+				@media @phone {
 					width: inherit;
-					padding: 25px;
-				}	
+					padding: 25;
+				}
 			}
-			@media @phone{
+			@media @phone {
 				width: inherit;
-			}	
+			}
 		}
-		
+
 		.walk-img {
 			width: 46%;
 			margin-left: 4%;
-			
+
 			img {
 				width: 100%;
 				height: auto;
 				.cornering(10px;);
 			}
-			@media @phone{
+			@media @phone {
 				width: inherit;
 				margin: 0;
-			}	
+			}
 		}
 	}
 } // home

@@ -10,28 +10,27 @@
 	flex-direction: row;
 }
 
-
 .cornering(@rad) {
-    border-radius: @rad;
+	border-radius: @rad;
 }
 
 .testblock() {
-    border: 1px solid red;
+	border: 1px solid red;
 }
 
-.butt(@rad; @colorfg; @colorbg;){
-    // .testblock();
-    padding:8px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-align: center;
-    .cornering(@rad);
-    width: 100px;
-    color: @colorfg;
-    background-color: @btn-bg-color;
-    border: 3px solid @btn-bg-color;
-    &:hover{
-        color: @btn-bg-color;
-        background-color: @colorfg;
-    }
+.butt(@rad; @colorfg; @colorbg;) {
+	// .testblock();
+	padding: 8px;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: center;
+	.cornering(@rad);
+	width: 100px;
+	color: @colorfg;
+	background-color: @btn-bg-color;
+	border: 3px solid @btn-bg-color;
+	&:hover {
+		color: @btn-bg-color;
+		background-color: @colorfg;
+	}
 }

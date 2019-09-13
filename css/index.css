@@ -135,7 +135,7 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #5e6164;
 }
 h1,
@@ -143,7 +143,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   color: #23293b;
 }
 h1 {
@@ -316,7 +316,7 @@ header.intro div.headerInner > * {
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: inherit;
-    padding: 25px;
+    padding: 25;
   }
 }
 @media (max-width: 500px) {

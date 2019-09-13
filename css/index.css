@@ -182,6 +182,15 @@ nav a {
   color: #454a59;
   text-decoration: none;
   font-weight: bold;
+  display: inline-block;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+nav a:hover {
+  transform: translateY(-10px) scale(1.5);
 }
 @media (max-width: 500px) {
   nav a {
@@ -260,10 +269,10 @@ header.intro div.headerInner > * {
   .home .space-images img {
     display: none;
   }
-}
-.home .space-images img:first-child {
-  display: block;
-  width: 100%;
+  .home .space-images img:first-child {
+    display: block;
+    width: 100%;
+  }
 }
 .home .visit-planets {
   padding: 15px;

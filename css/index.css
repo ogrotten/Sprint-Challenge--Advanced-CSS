@@ -165,7 +165,7 @@ p {
   margin: 0 auto;
 }
 nav {
-  width: 45%;
+  width: 400px;
   font-size: 1.6rem;
   display: flex;
   flex-direction: row;
@@ -279,6 +279,11 @@ header.intro div.headerInner > * {
   width: 100px;
   color: #f6f6f6;
   background-color: #22283a;
+  border: 3px solid #22283a;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283a;
+  background-color: #f6f6f6;
 }
 .home .walk .walk-img {
   width: 46%;
